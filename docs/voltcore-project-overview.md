@@ -371,22 +371,3 @@ repadmin /replsummary
 ```
 
 ---
-
-## What Two Offices Teaches That One Cannot
-
-A single office AD setup teaches configuration. Two offices teaches architecture.
-
-With two offices you must answer questions that do not exist with one:
-
-- What happens to Johannesburg users if the Durban DC goes down?
-- How long does it take for a new user created in Durban to be available in Johannesburg?
-- How do you control how much network traffic replication generates between sites?
-- Which DC is authoritative for password changes?
-
-These are the questions that come up in real enterprise environments. The answers — redundant DCs, replication intervals, site links, FSMO roles — are the concepts that separate someone who set up AD in a lab from someone who understands AD as an enterprise system.
-
----
-
-## This Document Is a Living Reference
-
-Update this document as the project progresses. Every decision made, every problem solved, every concept understood gets recorded here. By Day 45 this document becomes the foundation of the Phase 2 runbook.
